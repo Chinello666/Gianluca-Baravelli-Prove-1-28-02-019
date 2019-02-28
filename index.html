@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Esercizio JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        
+</head>
+<body style="max-width: 1170px; text-align: center; align-items: center ;margin: 0px auto">
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand">Go to Main Website</a>
+            <p style="font-size: 20px"><i class="fas fa-pizza-slice"></i></p>
+        </nav>
+    </header>
+    <article>
+        <div class="row">
+            <div class="col-0 col-md-2"></div>
+            <div class="jumbotron col-12 col-md-8 " style="display:flex ; flex-direction: column">
+                <img src="https://picsum.photos/1200/500/?random" alt="main news">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                    interdum,
+                    nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula
+                        venenatis
+                        dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum
+                        augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero
+                        sed
+                        nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                        Integer
+                        fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                <button class="btn btn-info" onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="col-0 col-md-2"></div>
+        </div>
+    </article>
+    <article>
+        <div id="secondaryNews" class="row d-flex justify-content-center">
+        </div>
+    </article>
+    <footer>
+        <div class="d-flex justify-content-between navbar navbar-light bg-light">
+            <div>Prova 1 - landing page</div>
+            <div>FORMART</div>
+            <div id="todayDate"></div>       
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
